@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 ul {
   list-style: none;
@@ -11,7 +13,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -19,12 +21,18 @@ a {
 .logo-black {
   color: #2e2f42;
 }
-.header-menu-list {
+.menu-list-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.menu-list-link:hover {
+  color: #404bbf;
+}
+.menu-list-link:focus {
+  color: #404bbf;
 }
 .header-contacts {
   font-style: normal;
@@ -38,18 +46,23 @@ a {
 }
 
 .header-contacts-list-item {
+  color: #434455;
+}
+.header-contacts-list-item:hover {
+  color: #404bbf;
+}
+.header-contacts-list-item:focus {
+  color: #404bbf;
 }
 
 /* --------------------------MAIN CONTENT------------------------------ */
 .main {
-}
-.hero {
-  background-color: #2e2f42;
+  color: #2e2f42;
 }
 .title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -61,6 +74,14 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.order-button:hover {
+  background-color: #404bbf;
+}
+.order-button:focus {
+  background-color: #404bbf;
 }
 /* --------------------------BENEFITS-------------------------------- */
 .section-benefits {
@@ -92,10 +113,11 @@ a {
 .title-our-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .our-team-list {
 }
@@ -125,14 +147,16 @@ a {
 .section-our-portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
 .portfolio-list-item {
+  background-color: #ffffff;
 }
 .portfolio-list-image {
 }
@@ -170,7 +194,7 @@ a {
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.7;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
