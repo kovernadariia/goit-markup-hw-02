@@ -118,7 +118,7 @@ a {
 }
 /* ---------------OUR TEAM------------- */
 .section-our-team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .title-our-team {
   font-weight: 700;
@@ -132,6 +132,7 @@ a {
 .our-team-list {
 }
 .our-team-list-item {
+  background-color: #ffffff;
 }
 .img {
 }
@@ -210,7 +211,7 @@ a {
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
