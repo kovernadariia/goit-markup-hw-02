@@ -67,6 +67,7 @@ a {
 }
 /*-----------------------------HERO--------------------------------------*/
 .hero {
+  background-color: #2e2f42;
 }
 .title {
   font-weight: 700;
@@ -117,7 +118,7 @@ a {
 }
 /* ---------------OUR TEAM------------- */
 .section-our-team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .title-our-team {
   font-weight: 700;
@@ -192,7 +193,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -202,14 +203,14 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.15;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
